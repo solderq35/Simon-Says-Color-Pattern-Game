@@ -25,9 +25,8 @@ h1 {
 }
 
 button {
-  width: 80px;
-  height: 80px;
-  margin: 5px;
+  padding: 25px;
+  border-radius: 20px;
 }
 
 #gameButtonArea button {
@@ -131,4 +130,22 @@ video {
 #button7,
 #button8 {
   order: 2;
+}
+
+button span {
+  display: block;
+  text-align: center;
+}
+
+.game-button span {
+  display: none;
+  font-size: 24px; /* Change to desired size */
+}
+
+.game-button.show-note span {
+  display: inline;
+}
+
+.notes-label {
+  margin-left: 20px; /* adjust the value as needed */
 }
